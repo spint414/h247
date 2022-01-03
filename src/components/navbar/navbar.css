@@ -1,0 +1,127 @@
+.h247__navbar {
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index:999;
+    background: #ffffff;
+    padding: 1.642rem 0rem;
+    filter: drop-shadow(0px 4px 4px rgba(15, 35, 102, 0.2));
+}
+
+.h247__navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h247__navbar-banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.h247__navbar-banner_logo {
+    margin-right: 0.8rem;
+}
+
+.h247__navbar-banner_logo img {
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.h247__navbar-banner_logo-text {
+    margin-bottom: 0.3rem;
+}
+
+.h247__navbar-banner_logo-text img {
+    max-width: 74px;
+    max-height: 23px;
+}
+
+.h247__navbar-banner_logo-text_group p {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 9.45px;
+    font-family: var(--font-family);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.h247__navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.h247__navbar-links a, .h247__navbar-menu_container a  {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.h247__navbar-links a {
+    color: #213479;
+    margin: 0rem 2.5rem;
+}
+
+.h247__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.h247__navbar-menu svg {
+    cursor: pointer;
+}
+
+.h247__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: #5456DA;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.h247__navbar-menu_container p {
+    font-family: var(--font-family);
+    margin: 1rem 0;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 860px) {
+    .h247__navbar-menu {
+        display: flex;
+    }
+    .h247__navbar-links {
+        display: none;
+    }
+}
+
+
+/* @media screen and (max-width: 700px) {
+    .h247__navbar-wrapper {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .h247__navbar-wrapper {
+        padding: 2rem;
+    }
+
+    .h247__navbar-menu_container {
+        top: 20px;
+    }
+} */

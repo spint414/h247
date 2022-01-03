@@ -1,0 +1,11 @@
+.h247__chatbot {
+    position: fixed;
+    top: 770px;
+    right: 40px;
+    z-index: 999;
+}
+
+.h247__chatbot img {
+    width: 84px;
+    height: 90px;
+}

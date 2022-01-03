@@ -1,0 +1,80 @@
+.news__features {
+    padding-top: 4rem;
+}
+
+.news__features-content {
+    margin-top: 0.75rem;
+}
+
+.news__features h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #4A6BDE; 
+}
+
+.news__features-tabs .ant-tabs {
+    max-width: 400px;
+    padding: 1.25rem;
+    background: #E7ECF3;
+    border-radius: 10px;
+}
+
+.news__features-tabs .ant-tabs-nav {
+    margin-bottom: 0;
+}
+
+.news__features-tabs .ant-tabs-tab {
+    padding: 0.688rem 1.625rem;
+    margin: 0rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 21px;
+    color: #213479; 
+}
+
+.news__features-tabs .ant-tabs-tab-active {
+    background: #ffffff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px; 
+    border-style: none;
+    border-color: #fff; 
+}
+
+
+.news__features-tabs .ant-tabs-tabpane {
+    padding: 1rem 1.25rem;
+    background: #ffffff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.news__features-tabs .ant-tabs-tabpane:first-child {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px 5px 5px 5px;
+    border-radius: 0px 5px 5px 5px; 
+}
+
+.news__features-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #213479;
+    border-color: #fff;
+}
+
+.news__features-tabs .ant-tabs-ink-bar {
+    background-color: transparent;
+}
+
+.news__features-tabs .news__features-tabs_card:last-child {
+    border-bottom: none;
+}
+
+.news__features-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

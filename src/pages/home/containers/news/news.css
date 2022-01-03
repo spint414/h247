@@ -1,0 +1,21 @@
+.h247__news {
+    padding: 3.125rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+    
+.h247__news h2 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 47px;
+    text-align: center;
+    color: #4A6BDE;
+    align-content: center;
+    justify-content: center;
+}
+
+.h247__news-carousel {
+    width: 100%;
+    margin-top: 2.06rem;
+}

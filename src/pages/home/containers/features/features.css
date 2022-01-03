@@ -1,0 +1,114 @@
+.h247__features {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.h247__features-banner {
+  background-image: url(../../../../assets/images/Smartphone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vw / 2.77);
+}
+
+.h247__features-banner_wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.h247__features-banner_wrapper p {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 52px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #213479;
+  max-width: 520px;
+}
+
+.h247__features-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.h247__features-list_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.h247__features-list_text {
+  flex: 1;
+  display: flex;
+}
+
+.h247__features-list_text-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ctn1,
+.ctn3 {
+  padding-left: calc((100vw - 1400px) / 2 - 10px);
+}
+
+.ctn2 {
+  padding-left: 6.25rem;
+}
+
+.ctn1 p {
+  max-width: 360px;
+}
+
+.ctn2 p {
+  max-width: 395px;
+}
+
+.ctn3 p {
+  max-width: 379px;
+}
+
+.h247__features-list_text h2 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #213479;
+}
+
+.h247__features-list_text-profile img {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 1.25rem;
+}
+
+.h247__features-list_text-profile {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.h247__features-list_text-profile p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 19px;
+  color: #7b7b7b;
+}
+
+.h247__features-list_image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h247__features-list_image img {
+  max-width: 100%;
+  max-height: calc(50vw / 1.71);
+}

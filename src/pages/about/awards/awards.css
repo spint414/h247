@@ -1,0 +1,35 @@
+.about__awards {
+    padding-top: 3.125rem;
+    padding-bottom: 6.813rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about__awards h2 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    color: #213479;
+}
+
+.about__awards-image {
+    margin-top: 2.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.about__awards-image img {
+    margin-right: 6.25rem;
+}
+
+.about__awards-image img:first-child {
+    max-width: 330px;
+}
+
+.about__awards-image img:nth-child(2), .about__awards-image img:last-child {
+    max-width: 220px;
+    max-height: 104px;
+}

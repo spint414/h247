@@ -1,0 +1,24 @@
+.h247__header-video {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.videoFrame {
+    width: 680px !important;
+    height: 450px !important;
+}
+
+.play {
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+}
+
+.play img {
+    max-width: 84px;
+    max-height: 84px;
+}
+
+.play:hover {
+    opacity:1;
+}

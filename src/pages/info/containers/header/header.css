@@ -1,0 +1,27 @@
+.info__header {
+    background-image: url(../../../../assets/images/Doctor.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: calc(100vw / 3.6);
+}
+
+.info__header-wrapper {
+    height: 100%;
+    padding-bottom: 7.33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info__header-wrapper h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 63px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #213479;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,30 @@
+.guide__sections-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 570px;
+  border-radius: 10px;
+}
+
+.guide__section-section-container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(33, 43, 80, 0) 47.36%, rgba(33, 43, 80, 0.6) 75.72%, #111E4F 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.guide__sections-section h3 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 478px;
+  padding-bottom: 2.188rem;
+  display: flex;
+  justify-content: center;
+}

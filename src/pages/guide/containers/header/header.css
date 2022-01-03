@@ -1,0 +1,26 @@
+.guide__header {
+    background-image: url(../../../../assets/images/Smartphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: calc(100vw / 2.77);
+}
+
+.guide__header-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.guide__header-wrapper h1 {
+    max-width: 624px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 63px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #213479;
+}

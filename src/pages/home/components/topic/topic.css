@@ -1,0 +1,36 @@
+.h247__topics-container_topic {
+    border-radius: 5px;
+    background: #ffffff;
+    width: 225px;
+    height: 70px;
+}
+
+.h247__topics-container_topic-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.h247__topics-container_topic img {
+    max-width: 44px;
+    max-height: 44px;
+    margin-right: 0.7rem;
+}
+
+.h247__topics-container_topic-text h3 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    color: #213479;
+}
+
+.h247__topics-container_topic-text p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 13px;
+    color: #7B7B7B;
+}
+

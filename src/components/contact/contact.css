@@ -1,0 +1,89 @@
+.h247__navbar-links_cta-btn {
+    margin-left: 0.5rem;
+}
+
+.ant-btn-primary {
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    background: #5456DA !important;
+    border-radius: 22px !important;
+    font-family: var(--font-family) !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 21px !important;
+    cursor: pointer !important;
+    align-items: center !important;
+    padding: 0.75rem 2rem !important;
+    height: 100% !important;
+}
+
+.h247__navbar-links_cta-btn .ant-btn-primary:hover,
+.h247__navbar-links_cta-btn .ant-btn-primary:focus {
+    color: #ffffff;
+    border-color: #5456DA;
+    background: #5456DA;
+}
+
+.h247__navbar-links_cta-modal {
+    display: flex;
+    flex-direction: row;
+}
+
+.h247__navbar-links_cta-modal_image {
+    max-width: 460px;
+    margin-right: 3.125rem;
+}
+
+.h247__navbar-links_cta-modal_image img {
+    max-width: 100%;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper {
+    width: 100%;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper p {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    color: #4A6BDE;
+    margin-top: 2.875rem;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper form {
+     margin-top: 2.875rem;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper .ant-form-item {
+    margin-bottom: 0.688rem;
+    height: 55px;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper button {
+    margin-top: 3.063rem;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper .ant-input {
+    font-family: var(--font-family);
+    border:none;
+    border-bottom: 1px solid #AEAEAE;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    padding: 0rem 0.375rem 0.75rem 0.375rem;
+}
+
+.h247__navbar-links_cta-modal_form-wrapper .ant-form-item-explain-error {
+    font-family: var(--font-family);
+}
+
+.h247__navbar-links_cta-modal_form-wrapper .ant-input:focus {
+    border-color: #4A6BDE;
+    box-shadow: none;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:focus {
+    box-shadow: none !important;
+}

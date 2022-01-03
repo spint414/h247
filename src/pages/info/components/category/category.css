@@ -1,0 +1,22 @@
+.info__categories-category {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.info__categories-category p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #213479;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+

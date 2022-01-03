@@ -1,0 +1,28 @@
+.news__features-container_main {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    max-width: 710px;
+}
+
+.news__features-container_main img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.news__features-container_main h3 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    color: #213479;
+    margin-top: 1.188rem;
+}
+
+.news__features-container_main p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 21px;
+    color: #7B7B7B;
+    margin-top: 1rem;
+}
