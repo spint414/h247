@@ -18,7 +18,7 @@ function Experience() {
             Song song với công nghệ trí tuệ nhân tạo là một đội ngũ các bác sĩ,
             chuyên gia y tế không ngừng cập nhật kiến thức y khoa, đảm bảo chất
             lượng đầu vào của dữ liệu y tế, hướng đến một công cụ kiểm tra sức
-            khỏe chuẩn xác.
+            khỏe chuẩn xác .
           </p>
         </div>
       </div>
