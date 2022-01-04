@@ -33,6 +33,7 @@
   color: #000000;
   text-decoration: underline;
   padding: 0 !important;
+  align-items: center;
 }
 
 .policy__collapse .ant-collapse-borderless {

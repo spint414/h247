@@ -1,7 +1,6 @@
 .h247__customers-carousel_customer {
     display: flex;
     flex-direction: column;
-    max-width: 430px;
     margin-top: 45px;
     position: relative;
     margin-bottom: 11px;
@@ -42,11 +41,14 @@
 
 .h247__customers-carousel_customer-info {
     border: 3px solid #4A6BDE;
+    width: 430px;
+    height: 191px;
     box-sizing: border-box;
     box-shadow: 3px 4px 11px 2px rgba(19, 41, 117, 0.2);
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .h247__customers-carousel_customer-info p {
@@ -54,7 +56,6 @@
     font-size: 16px;
     line-height: 17px;
     padding-top: 60px;
-    padding-bottom: 35px;
     color: #7B7B7B;
     max-width: 320px;
 }

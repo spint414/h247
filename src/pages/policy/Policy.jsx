@@ -1,7 +1,8 @@
 import React from "react";
 import "./policy.css";
 import { Collapse } from "antd";
-import arrow from "../../assets/images/Collapse-arrow.png";
+import arrowup from "../../assets/images/Collapse-arrow-up.png";
+import arrowdown from "../../assets/images/Collapse-arrow-down.png";
 const { Panel } = Collapse;
 
 function Policy() {
@@ -438,11 +439,11 @@ function Policy() {
         <div className="policy__collapse-text-content">
           <h4>Quy trình hoàn/huỷ khi đặt mua dịch vụ/ sản phẩm</h4>
           <p>
-            a. Khách hàng liên hệ đến tổng đài cơ sở y tế để yêu cầu việc
+            <b>a. </b>Khách hàng liên hệ đến tổng đài cơ sở y tế để yêu cầu việc
             đổi/trả sản phẩm/ dịch vụ.
             <br />
             <br />
-            b. Cơ sở y tế nhận yêu cầu và phản hồi khách hàng về quy trình giải
+            <b>b. </b>Cơ sở y tế nhận yêu cầu và phản hồi khách hàng về quy trình giải
             quyết hỗ trợ hoàn/huỷ sản phẩm/ dịch vụ.
           </p>
         </div>
@@ -459,12 +460,11 @@ function Policy() {
           expandIconPosition={"right"}
           expandIcon={({ isActive }) =>
             isActive ? (
-              <img src={arrow} alt="arrow" />
+              <img src={arrowup} alt="arrow" />
             ) : (
               <img
-                src={arrow}
+                src={arrowdown}
                 alt="arrow"
-                style={{ transform: "rotate(180deg)" }}
               />
             )
           }
