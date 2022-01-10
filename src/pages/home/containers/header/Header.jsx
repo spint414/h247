@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
-import apple from "../../../../assets/images/Apple.png";
-import googleplay from "../../../../assets/images/GooglePlay.png";
+import apple from "../../../../assets/images/Apple.svg";
+import googleplay from "../../../../assets/images/GooglePlay.svg";
 import Video from "../../components/video/Video";
 
 function Header() {
@@ -28,9 +28,7 @@ function Header() {
           </div>
         </div>
         <div className="h247__header-image">
-          {/* <img className='h247__header-image_family' src={family} alt="family" /> */}
           <Video />
-          {/* <img className='h247__header-image_playbtn' src={playbtn} alt="playbtn" /> */}
         </div>
       </div>
     </div>

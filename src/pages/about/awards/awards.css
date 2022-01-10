@@ -3,7 +3,7 @@
     padding-bottom: 6.813rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .about__awards h2 {
@@ -33,3 +33,4 @@
     max-width: 220px;
     max-height: 104px;
 }
+

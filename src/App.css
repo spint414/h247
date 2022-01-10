@@ -22,6 +22,12 @@ i {
   font-style: italic !important;
 }
 
+img {
+  image-rendering: -webkit-optimize-contrast;
+  width: 100%;
+  display: block;
+}
+
 /* Angry toolkit gradient */
 .gradient__bg {
   background: -moz-radial-gradient(
@@ -60,9 +66,9 @@ i {
 }
 
 .max__width {
-  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  width: min(81.94%, 1400px);
 }
 
 /* Animista */

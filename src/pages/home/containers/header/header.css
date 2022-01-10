@@ -56,39 +56,11 @@
     max-width: 100%
 }
 
-
-/* .h247__header-content button {
-    font-family: var(--font-family);
-    margin-top: 3rem;
-    color: #4C78E2;
-    border: none;
-    outline: none;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 25px;
-    padding: 1.2rem 3rem;
-    background: #ffffff;
-    border-radius: 30px;
-} */
-
 .h247__header-image {
     display: flex;
     justify-content: flex-end;
     max-width: 48%;
 }
-
-/* .h247__header-image_family {
-    max-width: 100%;
-}
-
-.h247__header-image_playbtn {
-    position: absolute;
-    width: 84px;
-    height: 84px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-} */
 
 @media screen and (max-width: 1060px) {
     .h247__header-wrapper {

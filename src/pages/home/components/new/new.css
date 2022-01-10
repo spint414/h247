@@ -1,12 +1,14 @@
 .h247__news-carousel_new {
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 380px;
+  width: 380px;
   border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .h247__news-carousel_new-content {
-    background: linear-gradient(180deg, rgba(121, 121, 121, 0) 34.52%, rgba(83, 83, 83, 0.67) 63.85%, #424242 100%);
+    background: linear-gradient(180deg, rgba(33, 43, 80, 0) 34.52%, rgba(33, 43, 80, 0.67) 63.85%, rgba(33, 43, 80, 0.8) 83.63%, #111E4F 100%);
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -5,3 +5,5 @@ export { default as Info } from './info/Info';
 export { default as News } from './news/News';
 export { default as Article } from './article/Article';
 export { default as Policy } from './policy/Policy';
+export { default as Location } from './location/Location';
+export { default as Contact } from './contact/Contact';

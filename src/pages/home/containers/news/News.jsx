@@ -10,13 +10,13 @@ function News() {
 const customeSlider = useRef();
 
   const settings = {
+    className: "slider variable-width",
     dots: false,
-    className: "center",
     centerMode: true,
     infinite: true,
-    slidesToShow: 4.5,
     speed: 500,
     arrows: false,
+    variableWidth: true,
   };
   
     return (

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/images/DeepcareLogo.png";
 import { Link } from "react-router-dom";
-import Contact from "../contact/Contact";
 import logotext from "../../assets/images/H247.png";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
@@ -30,7 +29,7 @@ function Navbar() {
           <Link to="/guide">Hưỡng dẫn sử dụng</Link>
           <Link to="/info">Kiến thức y khoa</Link>
           <Link to="/news">Tin tức</Link>
-          <Contact />
+          <Link to="/contact"><button>Liên hệ</button></Link>
         </div>
         <div className="h247__navbar-menu">
           {toggleMenu ? (

@@ -1,7 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import { Navbar, ScrollToTop, Sidebar, Chatbot, CTA } from './components';
-import {Home, About, Guide, Info, News, Article, Policy} from './pages'
+import { Navbar, ScrollToTop, Sidebar, Chatbot, Footer } from './components';
+import {Home, About, Guide, Info, News, Article, Policy, Location, Contact} from './pages'
+import "antd/dist/antd.css";
+import "./reset.css";
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/article" element={<Article />} />
             <Route path="/policy" element={<Policy />} />
+            <Route path="/location" element={<Location />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/" element={<Home/>}/>
           </Routes>
-        <CTA />
+        <Footer />
       </div>
     </Router>
   );

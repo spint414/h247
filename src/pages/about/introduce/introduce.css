@@ -3,40 +3,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .about__introduce-image {
-    flex: 1;
+    max-width: 700px;
     display: flex;
-    align-items: flex-end;
 }
 
-.about__introduce img {
-    max-width: 580px;
+.about__introduce-image img {
+    width: 100%;
+    display: block;
 }
 
-.about__introduce-content {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.about__introduce-content-container {
-    max-width: 540px;
-    display: flex;
-    flex-direction: column;
-}
-
-.about__introduce-content p {
+.about__introduce p {
+    max-width: 429px;
     font-family: var(--font-family);
+    font-weight: 400;
     font-size: 20px;
     line-height: 21px;
     text-align: justify;
     color: #7B7B7B;
-    margin-top: 1rem;
 }
 
-.about__introduce-content p:first-child {
-    margin-top: 0rem;
-}

@@ -23,7 +23,7 @@
 }
 
 .news__features-tabs .ant-tabs-nav {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .news__features-tabs .ant-tabs-tab {

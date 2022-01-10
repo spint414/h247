@@ -7,27 +7,27 @@ function Introduce() {
   return (
     <div className="about__vip max__width">
       <div className="about__vip-wrapper">
-        <div className="about__vip-vision">
-          <div className="about__vip-vision-container">
-            <h2>Tầm nhìn & sứ mệnh</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A quis
-              enim, tellus eleifend felis, tellus. Venenatis condimentum neque,
-              lectus iaculis pellentesque. A eget tristique aliquet suspendisse
-              non. Tempus dignissim porttitor sagittis tristique et nisl lorem
-              pellentesque. Velit mattis et iaculis et ullamcorper cursus
-              maecenas. Ornare faucibus egestas id arcu. Quam gravida vitae in
-              cursus massa viverra.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A quis
-              enim, tellus eleifend felis, tellus. Venenatis condimentum neque,
-              lectus iaculis pellentesque. A eget tristique aliquet suspendisse
-              non. Tempus dignissim porttitor sagittis tristique et nisl lorem
-              pellentesque. Velit mattis et iaculis et ullamcorper cursus
-              maecenas. Ornare faucibus egestas id arcu. Quam gravida vitae in
-              cursus massa viverra.
-            </p>
+        <div className="about__vip-text">
+          <div className="about__vip-text_container">
+            <div className="about__vip-text_goal">
+              <h2>Mục tiêu</h2>
+              <p>
+                Chúng tôi hướng đến trở thành hệ sinh thái chăm sóc sức khoẻ ứng
+                dụng công nghệ tiên tiến lớn nhất Việt Nam.
+              </p>
+            </div>
+            <div className="about__vip-text_vision">
+              <h2>Tầm nhìn & sứ mệnh</h2>
+              <p>
+                Deepcare Vietnam hướng đến trở thành hệ sinh thái chăm sóc sức
+                khỏe ứng dụng công nghệ tiên tiến lớn xnhất Việt Nam.
+                <br />
+                <br />
+                Chúng tôi cam kết mang đến cho cộng đồng nền y tế hiện đại hơn,
+                tiện lợi hơn với mức chi tiêu cho hoạt động khám, chữa bệnh thấp
+                hơn.
+              </p>
+            </div>
           </div>
         </div>
         <div className="about__vip-team">

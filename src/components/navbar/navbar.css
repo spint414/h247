@@ -23,9 +23,6 @@
 
 .h247__navbar-banner_logo {
     margin-right: 0.8rem;
-}
-
-.h247__navbar-banner_logo img {
     max-width: 44px;
     max-height: 44px;
 }
@@ -65,6 +62,25 @@
 .h247__navbar-links a {
     color: #213479;
     margin: 0rem 2.5rem;
+}
+
+.h247__navbar-links a:last-child {
+    margin-right: 0rem;
+}
+
+.h247__navbar-links button {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: #5456DA;
+    border-radius: 22px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0.75rem 2rem;
 }
 
 .h247__navbar-menu {

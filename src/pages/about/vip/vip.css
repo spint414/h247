@@ -11,21 +11,26 @@
     flex-direction: row;
 }
 
-.about__vip-vision {
+.about__vip-text {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     border-right: 1px solid #C5C5C5;
 }
 
-.about__vip-vision-container {
+.about__vip-text_container {
     max-width: 540px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.about__vip-vision h2, .about__vip-team h2 {
+
+.about__vip-text_vision {
+    margin-top: 2.375rem;
+}
+
+.about__vip-text h2, .about__vip-team h2 {
     font-family: var(--font-family);
     font-weight: bold;
     font-size: 40px;
@@ -33,7 +38,7 @@
     color: #213479;
 }
 
-.about__vip-vision p, .about__vip-team_person p {
+.about__vip-text p, .about__vip-team_person p {
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 21px;
@@ -41,11 +46,11 @@
     color: #7B7B7B;
 }
 
-.about__vip-vision p {
+.about__vip-text p {
     margin-top: 1rem;
 }
 
-.about__vip-vision p:first-child {
+.about__vip-text p:first-child {
     margin-top: 1.75rem;
 }
 
